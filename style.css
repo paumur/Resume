@@ -1,0 +1,315 @@
+/* DOCUMENT */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding-top: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+  font-weight: 300;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none !important;
+  color: #212529;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #212529;
+}
+a:focus {
+  text-decoration: none;
+  color: #212529;
+}
+a:active {
+  text-decoration: none;
+  color: #212529;
+}
+
+.colored--text {
+  color: #f0a500;
+}
+
+div {
+  padding: 10px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #f4f6f8;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
+
+.navbar--left {
+  color: #f0a500;
+  float: left;
+  position: fixed;
+  margin-left: 5%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+.navbar--right {
+  display: flex;
+  gap: 10px;
+  float: right;
+  margin-right: 10%;
+}
+
+.navbar--right--text {
+  margin-top: 30px;
+}
+
+.navbar.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+/* MAIN CONTENNT  */
+
+.mainSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color: #f4f6f8;
+}
+
+.developer-img {
+  width: 350px;
+  height: 350px;
+  object-fit: fill;
+  margin-top: 150px;
+}
+
+.mainSection--right {
+  margin-top: 190px;
+}
+
+.mainSection--right > h3 {
+  font-weight: 300;
+}
+
+.mainSection--right > p {
+  font-weight: 300;
+}
+
+/* ABOUT PAGE */
+
+.about--heading,
+.enjoy--heading,
+.skills--heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.about--picture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#About {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.about--text {
+  width: 450px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.about--text > h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about--table {
+  text-align: left;
+  height: 150px;
+  width: 400px;
+}
+
+/* ENJOY - WILD PHOTOGRAPHY */
+
+.enjoy--heading {
+  margin-top: 100px;
+}
+.enjoy--bird--picture {
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.enjoy--photograpy {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enjoy--wildlife--p,
+.enjoy--wildlife--i {
+  margin-left: 50px;
+  width: 400px;
+  text-align: justify;
+  margin: 30px 0px;
+  margin-left: 50px;
+}
+
+.enjoy--wildlife--h3 {
+  margin-left: 50px;
+}
+
+/* ENJOY BEER BREWING */
+
+.enjoy--beerbrewing {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enjoy--beerbreewing--picture {
+  width: 250px;
+  height: 600px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.enjoy--beerbrewing--h3 {
+  margin-left: 50px;
+}
+
+.enjoy--wildlife--p {
+  margin-left: 50px;
+}
+
+/* ENJOY BEER MTB */
+
+.enjoy--mtb {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enjoy--mtb--picture {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.enjoy--mtb--h3 {
+  margin-left: 50px;
+}
+
+.enjoy--mtb--p {
+  margin-left: 50px;
+  width: 400px;
+  text-align: justify;
+}
+
+/* SKILLS */
+
+.skills--heading {
+  margin-top: 100px;
+}
+
+.skills--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills--heading--p {
+  text-align: center;
+}
+
+.webdev--logo {
+  width: 300px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.react--logo {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+}
+
+/* MONITORING */
+
+.monitoring--headingtext {
+  text-align: center;
+}
+
+.monitoring-1--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.monitoring-1--image {
+  width: 500px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.monitoring-1--text {
+  width: 400px;
+  margin-left: 50px;
+}
+
+/* MONITORING 2 */
+
+.monitoring--headingtext {
+  text-align: center;
+}
+
+.monitoring-2--container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.monitoring-2--image {
+  width: 500px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.monitoring-2--text {
+  width: 400px;
+  margin-right: 50px;
+}
+
+/* CONTACT */
+
+#Contact {
+  margin-top: 80px;
+  padding-top: 50px;
+  height: 200px;
+  text-align: center;
+  background-color: #f4f6f8;
+}
